@@ -43,6 +43,7 @@
   position: fixed;
   bottom: 0px;
   left: 0px;
+  min-width: 250px;
   width: 20%;
   border-radius: 10px;
   margin: 15px;
