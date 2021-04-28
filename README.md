@@ -1,4 +1,4 @@
-# PuddleBuddy
+# PuddleBuddyClient
 
 Displays terrain conditions based on historical, present, and future weather.
 
