@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import TitleBanner from './TitleBanner.js';
 
@@ -7,27 +6,25 @@ function App() {
     <div className="App">
       <header className="App-header">
       <TitleBanner/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <div className="Nav-box">
-          <div className="Nav-list">
-              HOME<br></br>
-              BACK<br></br>
-              ALL LOCATIONS<br></br>
-              SEARCH BY NAME<br></br>
+      </header>
+      <body className="App-body">
+        <div className="Description">
+          <p>Say hello to your new buddy! This application is designed to always be one step ahead of you on the trail.</p>
+          <p>Whether you're hiking, climbing, mountaineering, or just having some fun in the sun, we'll find the right weather for you!</p>
+        </div>
+        <div className="Locations">
+          <div className="Search">
+          <img className="img-fluid" 
+     src={`${process.env.PUBLIC_URL}/assets/images/hurricane_ridge.jpg`} 
+     alt="Hurricane Ridge"/>
+            <h2>Search Locations by Name</h2>
+          </div>
+          <div className="View-all">
+            <img src=""/>
+            <h2>View Terrain Conditions</h2>
           </div>
         </div>
-      </header>
+      </body>
     </div>
   );
 }

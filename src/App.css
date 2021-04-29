@@ -2,60 +2,64 @@
   text-align: center;
   background-color: #282c34;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6UyFC21yShT00BYg9Lh9uLso39QFaV16_w&usqp=CAU");
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #404440;
+  padding: 6vh;
 }
 
-.App-link {
-  color: #404044;
+.App-body {
+  min-height: 100vh;
+  min-width: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Description {
+  background-color: #909990;
+  border-color: #404440;
+  border-style: double;
+  border-radius: 50px;
+  margin: 10vh;
+  padding: 2vh;
+} 
+
+.Locations {
+  background-color: cornsilk;
+  margin: 10vh;
+  padding: 5vh;
+
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
 }
 
-.Nav-box{
-  background-color: #404440;
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  min-width: 250px;
-  width: 20%;
-  border-radius: 10px;
-  margin: 15px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+.Search {
+  background-color:khaki;
 }
 
-.Nav-list {
-  color: #202220;
-  background-color: #505550;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 5px;
-  font-size: calc(10px + 2vmin);
+.View-all {
+  background-color: khaki;
+}
+
+.Search > img {
+  flex-basis:20%;
+}
+
+.Search > h2 {
+  flex-basis: 80%;
+}
+
+.View-all > img {
+
+}
+
+.View-all > h2 {
+
 }

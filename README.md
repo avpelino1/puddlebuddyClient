@@ -9,7 +9,7 @@ This project is currently in development. Users can view a homepage, but the fun
 
 # Project Screen Shots
 
-<img src=public/puddlebuddyHome.PNG/>
+<img src=public/assets/puddlebuddy_example.PNG/>
 
 
 

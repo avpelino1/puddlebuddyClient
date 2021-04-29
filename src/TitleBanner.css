@@ -1,8 +1,7 @@
 .Title-banner{
-    color:lavender;
+    color: rgb(245, 245, 245);
     border-radius:100px;
     background-color:#404440;
-  
     position: fixed;
     top: 0px;
     margin: 15px;

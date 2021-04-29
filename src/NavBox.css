@@ -1,0 +1,21 @@
+.Nav-box{
+    background-color: #404440;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    min-width: 250px;
+    width: 20%;
+    border-radius: 10px;
+    margin: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .Nav-list {
+    color: #202220;
+    background-color: #505550;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    font-size: calc(10px + 2vmin);
+  }
